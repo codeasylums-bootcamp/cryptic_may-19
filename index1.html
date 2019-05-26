@@ -18,7 +18,7 @@
 </head>
 <body>
 <div id="container" ></div>
-
+<button type="button" >INR</button>
 </body>
 <script type="text/javascript">
 	setInterval(function(){
@@ -27,9 +27,15 @@
 			let o=JSON.parse(this.responseText);
 			let d=new Date;
 			let p=o.bpi.USD.rate_float;
-			console.log(d.getTime());
-			console.log(p);
-			x.series[0].addPoint([d.getTime(),p]);
+                let e=o.bpi.EUR.rate_float;
+                let g=o.bpi.GBP.rate_float;
+                let i=p*69.37;;
+                console.log(d.getTime());
+                console.log(p);
+                x.series[0].addPoint([d.getTime(),p]);
+                x.series[1].addPoint([d.getTime(),e]);
+                x.series[2].addPoint([d.getTime(),g]);
+                x.series[3].addPoint([d.getTime(),i]);
 
 		})
 		xhr.open('GET',"https://api.coindesk.com/v1/bpi/currentprice.json");
@@ -89,8 +95,17 @@
                 }
             },
 
-             series: [{
+                 series: [{
         name: 'USD',
+        data: []
+    },{
+        name: 'EURO',
+        data: []
+    },{
+        name: 'GBP',
+        data: []
+    },{
+        name: 'INR',
         data: []
     }]
 

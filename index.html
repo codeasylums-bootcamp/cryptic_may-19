@@ -13,21 +13,20 @@
 
     <body>
       <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href=""></a>
-            <a class="navbar-brand" href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWf9ZN6yEFgrFDNBionp4fMUIec51vrTrRnUvJ5niFgl8vHMYR" alt="CRYPTIC" width="40px" height="40px"></a>
+          <div class="container-fluid">
+              <div class="navbar-header">
+              <a class="navbar-brand" href=""></a>
+              </div>
+              <ul class="nav navbar-nav">
+              <li  class="active"><a href="index.html">Home</a></li>
+              <li><a href="index1.html" target="_blank">Get Cryptocurrency Stats</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+              <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              </ul>
           </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="index1.html" target="_blank">Get Cryptocurrency Stats</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
-        </div>
-      </nav>
+          </nav>
       
       <div class="wrapper">
         <button type="button" class="btn-lg btn-danger but" onclick="fetch()">Get Latest Data</button>
@@ -35,11 +34,8 @@
       <br><br><br><br>
       <div class="table-responsive">
         <table class = "table" id = "currency">
-<<<<<<< HEAD
           <thead class="thead-dark">
-=======
           <thead >
->>>>>>> 0f6760b33aedebe9fc7f08e9232d392033c0e559
             <tr>
               <th scope="col">Name</th>
               <th scope="col">Symbol</th>

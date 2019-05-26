@@ -1,0 +1,36 @@
+table, thead, tr, tbody, th, td {
+  text-align: center;
+}
+
+th {
+    font-family: 'Patua One', cursive;
+}
+
+table {
+    background: rgb(236, 239, 241);
+    opacity: 0.7;
+    border-collapse: separate;
+    border-spacing: 0 1.5em;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.but {
+    position: absolute;
+}
+
+td {
+    font-family: 'Montaga', serif;
+    font-weight: bold;
+    color: black;
+    border: none;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+html, body {
+    background: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Plain-Wallpapers.jpg);
+    background-repeat: repeat-y;
+}

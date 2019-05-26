@@ -18,6 +18,7 @@
   "homepage": "https://github.com/codeasylums-bootcamp/cryptic_may-19#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "https": "^1.0.0",
     "requirejs": "^2.3.6"
   },
   "devDependencies": {

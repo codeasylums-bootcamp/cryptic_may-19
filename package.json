@@ -2,7 +2,7 @@
   "name": "cryptic",
   "version": "1.0.0",
   "description": "Live tracking of different popular cryptocurrencies and their latest trends.",
-  "main": "fetch.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +19,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "https": "^1.0.0",
-    "requirejs": "^2.3.6"
+    "requirejs": "^2.3.6",
+    "body-parser": "*"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"

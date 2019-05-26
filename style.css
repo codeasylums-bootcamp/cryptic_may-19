@@ -6,9 +6,20 @@ th {
     font-family: 'Patua One', cursive;
 }
 
+.navbar-brand {
+    position: relative;
+    background: url(https://crypticbase.com/wp-content/uploads/2018/04/cryptic_logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 170px;
+    left: 15px;
+    background-size: contain;
+    margin-right: 5px;
+}
+
 table {
     background: rgb(236, 239, 241);
-    opacity: 0.7;
+    opacity: 0.5;
     border-collapse: separate;
     border-spacing: 0 1.5em;
 }
@@ -31,6 +42,6 @@ td {
 }
 
 html, body {
-    background: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Plain-Wallpapers.jpg);
+    background: url(https://i1.wp.com/ese224.seas.upenn.edu/wp-content/uploads/2018/11/background-website-light-blue-wallpapers-background-2.jpg?ssl=1);
     background-repeat: repeat-y;
 }

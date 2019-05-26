@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
@@ -8,18 +13,45 @@
 <title>Currency Details</title>
 <style type="text/css">
 	#container {
-	min-width: 310px;
-	max-width: 800px;
-	height: 400px;
-	margin: 0 auto
+	min-width: 500px;
+    max-width: 1400px;
+    min-height: 500px;
+	max-height: 1400px;
+	margin: 100px auto;
+}
+.navbar-brand {
+    position: relative;
+    background: url(https://crypticbase.com/wp-content/uploads/2018/04/cryptic_logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 170px;
+    left: 15px;
+    background-size: contain;
+    margin-right: 5px;
 }
 </style>
 
 </head>
 <body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand" href=""></a>
+            </div>
+            <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index1.html" target="_blank">Get Cryptocurrency Stats</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+     </nav>
 <div id="container" ></div>
 
 </body>
+
 <script type="text/javascript">
 	setInterval(function(){
 		let xhr=new XMLHttpRequest;

@@ -1,0 +1,26 @@
+{
+  "name": "cryptic",
+  "version": "1.0.0",
+  "description": "Live tracking of different popular cryptocurrencies and their latest trends.",
+  "main": "fetch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeasylums-bootcamp/cryptic_may-19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeasylums-bootcamp/cryptic_may-19/issues"
+  },
+  "homepage": "https://github.com/codeasylums-bootcamp/cryptic_may-19#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

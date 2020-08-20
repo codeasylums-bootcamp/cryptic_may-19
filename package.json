@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/codeasylums-bootcamp/cryptic_may-19#readme",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "body-parser": "*",
     "express": "^4.17.1",
     "https": "^1.0.0",
